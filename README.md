@@ -40,47 +40,16 @@ This project builds a **Random Forest Classifier** to predict diabetes risk base
 ## 🗂️ Project Structure
 
 ```
-diabetes-prediction/
+diabete-analysis/
 │
-├── data/
-│   └── diabetes.csv                    # Dataset (Pima Indians Diabetes)
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb       # EDA and data quality checks
-│   ├── 02_preprocessing.ipynb          # Data cleaning and feature engineering
-│   ├── 03_model_training.ipynb         # Model development and optimization
-│   └── 04_evaluation.ipynb             # Model evaluation and SHAP analysis
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py           # Data cleaning functions
-│   ├── feature_engineering.py          # Feature creation functions
-│   ├── model_training.py               # Model training pipeline
-│   └── evaluation.py                   # Evaluation metrics and plots
-│
-├── models/
-│   ├── diabetes_model.pkl              # Trained Random Forest model
-│   └── scaler.pkl                      # Fitted StandardScaler
-│
-├── app/
-│   └── streamlit_app.py                # Interactive web application
-│
-├── visualizations/                     # Generated plots and figures
-│   ├── correlation_matrix.png
-│   ├── feature_importance.png
-│   ├── confusion_matrix_comparison.png
-│   ├── threshold_optimization.png
-│   ├── roc_curve.png
-│   └── shap_summary.png
-│
-├── reports/
-│   ├── project_report.pdf              # 3-5 page technical report
-│   └── presentation.pptx               # PowerPoint presentation
-│
+├── diabetes.csv                    # Dataset (Pima Indians Diabetes)
+├── diabetes_model.ipynb
+├── diabetes_model.pkl              # Trained Random Forest model
+├── scaler.pkl                      # Fitted StandardScaler
+├── streamlit_app.py                # Interactive web application
+├── app.py                # Interactive web application
 ├── requirements.txt                    # Python dependencies
-├── README.md                           # This file
-└── LICENSE                             # MIT License
-
+└── README.md                           # This file
 ```
 
 ## 🚀 Installation
@@ -127,12 +96,6 @@ Dataset available at: [Kaggle - Pima Indians Diabetes Database](https://www.kagg
 ```bash
 jupyter notebook
 ```
-
-Navigate to `notebooks/` and run them in order:
-1. `01_data_exploration.ipynb` - Explore the dataset
-2. `02_preprocessing.ipynb` - Clean and prepare data
-3. `03_model_training.ipynb` - Train and optimize model
-4. `04_evaluation.ipynb` - Evaluate and interpret results
 
 ### 2. Run Streamlit Web App (For Predictions)
 
