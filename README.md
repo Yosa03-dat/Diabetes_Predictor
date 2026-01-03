@@ -242,7 +242,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 Email: mohomedyoosuf2003@gmail.com  
 GitHub: [@Yosa03-dat](https://github.com/Yosa03-dat)
 
-**Project Link**: [https://github.com/Yosa03-dat/diabetes-prediction](https://github.com/Yosa03-dat/diabetes-prediction)
+**Project Link**: [https://github.com/Yosa03-dat/Diabetes_Predictor](https://github.com/Yosa03-dat/Diabetes_Predictor)
 
 ---
 
