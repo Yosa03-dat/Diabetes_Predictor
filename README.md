@@ -112,8 +112,8 @@ import pickle
 import numpy as np
 
 # Load model and scaler
-model = pickle.load(open('models/diabetes_model.pkl', 'rb'))
-scaler = pickle.load(open('models/scaler.pkl', 'rb'))
+model = pickle.load(open('diabetes_model.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 # Example patient data (18 features including engineered ones)
 patient_data = np.array([[...]])  # Your 18 features
@@ -197,19 +197,7 @@ The Streamlit app provides:
 - Personalized health recommendations
 - Key risk factor display
 
-**Access the app**: Run `streamlit run app/streamlit_app.py`
-
-## 📝 Report and Presentation
-
-- **Technical Report** (`reports/project_report.pdf`): 3-5 page detailed analysis
-- **Presentation** (`reports/presentation.pptx`): Summarizes key findings
-
-### Report Sections
-1. Problem Statement
-2. Data Preparation Steps
-3. Models Compared
-4. Key Insights and Recommendations
-5. Conclusion
+**Access the app**: Run `streamlit run streamlit_app.py`
 
 ## 🧪 Testing
 
@@ -220,8 +208,8 @@ To verify the installation and model:
 import pickle
 import numpy as np
 
-model = pickle.load(open('models/diabetes_model.pkl', 'rb'))
-scaler = pickle.load(open('models/scaler.pkl', 'rb'))
+model = pickle.load(open('diabetes_model.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 # Test prediction (sample data)
 test_data = np.array([[1, 120, 70, 20, 80, 25, 0.5, 30, 4.8, 750, 0.67, 0.033, 14400, 625, 3.0, 0, 1, 1]])
@@ -241,23 +229,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
 - **Dataset**: Pima Indians Diabetes Database (UCI Machine Learning Repository)
-- **Institution**: [Your University Name]
-- **Course**: Real World Data Analysis
-- **Semester**: III
-- **Project Type**: Predictive Data Pipeline for Student Performance Insights
+- **Institution**: Sabaragamuwa University of Sri Lanka
+
 
 ## 📧 Contact
 
-**Your Name**  
-Email: your.email@example.com  
-GitHub: [@yourusername](https://github.com/yourusername)
+**Mohomed Yoosuf**  
+Email: mohomedyoosuf2003@gmail.com  
+GitHub: [@yourusername](https://github.com/Yosa03-dat)
 
 **Project Link**: [https://github.com/yourusername/diabetes-prediction](https://github.com/yourusername/diabetes-prediction)
 
